@@ -101,7 +101,6 @@ public class GD_ChonGhe extends JPanel {
 
 		
 		phimduocchon = phimDAO.getPhimByMaPhim(LayMaPhim);
-		System.out.println(LayMaPhim);
 		
 		MaLichChieu = LichChieuPhim_DAO.getMaLichChieuByMaPhim(LayMaPhim);
 		MaPhong = LichChieuPhim_DAO.getMaPhongByMaLichChieu(MaLichChieu);
