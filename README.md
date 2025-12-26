@@ -58,7 +58,7 @@ Các bảng được liên kết với nhau thông qua khóa chính và khóa ng
 ---
 
 ## 👨‍🎓 Nhóm thực hiện
-- **Nguyễn Thành Luân** – 22653021  
+- **Nguyễn Thành Luân** – 22653021 (Nhóm trưởng) 
 - **Nguyễn Phạm Tuân** – 22650551  
 - **Cao Trọng Nguyễn** – 22671461  
 
