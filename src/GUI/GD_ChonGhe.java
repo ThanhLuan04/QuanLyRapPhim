@@ -92,14 +92,6 @@ public class GD_ChonGhe extends JPanel {
 		
 		phimDAO = new Phim_Dao();
 		LayMaPhim = gd_phim.getMaPhimDuocChon();
-//		LayMaPhim = DataManager.getInstance().getMaPhim();
-//		System.out.println("ma phim:" + LayMaPhim);
-//		if (LayMaPhim == null || LayMaPhim.isEmpty()) {
-//		    System.err.println("Mã phim không hợp lệ: " + LayMaPhim);
-//		    return; // Hoặc xử lý lỗi phù hợp
-//		}
-
-		
 		phimduocchon = phimDAO.getPhimByMaPhim(LayMaPhim);
 		
 		MaLichChieu = LichChieuPhim_DAO.getMaLichChieuByMaPhim(LayMaPhim);
